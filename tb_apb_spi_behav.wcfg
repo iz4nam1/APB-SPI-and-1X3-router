@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_apb_spi_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_apb_spi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="8127083165fs"></ZoomStartTime>
+      <ZoomEndTime time="17874583368fs"></ZoomEndTime>
+      <Cursor1Time time="16250000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="289" />
+   <wvobject fp_name="/tb_apb_spi/PCLK" type="logic">
+      <obj_property name="ElementShortName">PCLK</obj_property>
+      <obj_property name="ObjectShortName">PCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/PRESETn" type="logic">
+      <obj_property name="ElementShortName">PRESETn</obj_property>
+      <obj_property name="ObjectShortName">PRESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/PSEL" type="logic">
+      <obj_property name="ElementShortName">PSEL</obj_property>
+      <obj_property name="ObjectShortName">PSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/PENABLE" type="logic">
+      <obj_property name="ElementShortName">PENABLE</obj_property>
+      <obj_property name="ObjectShortName">PENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/PWRITE" type="logic">
+      <obj_property name="ElementShortName">PWRITE</obj_property>
+      <obj_property name="ObjectShortName">PWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/PADDR" type="array">
+      <obj_property name="ElementShortName">PADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/PWDATA" type="array">
+      <obj_property name="ElementShortName">PWDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/PRDATA" type="array">
+      <obj_property name="ElementShortName">PRDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/PREADY" type="logic">
+      <obj_property name="ElementShortName">PREADY</obj_property>
+      <obj_property name="ObjectShortName">PREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/PSLVERR" type="logic">
+      <obj_property name="ElementShortName">PSLVERR</obj_property>
+      <obj_property name="ObjectShortName">PSLVERR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/ss_n" type="array">
+      <obj_property name="ElementShortName">ss_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/s0_rx" type="array">
+      <obj_property name="ElementShortName">s0_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s0_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/s1_rx" type="array">
+      <obj_property name="ElementShortName">s1_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s1_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/s2_rx" type="array">
+      <obj_property name="ElementShortName">s2_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s2_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/s3_rx" type="array">
+      <obj_property name="ElementShortName">s3_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s3_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/s" type="array">
+      <obj_property name="ElementShortName">s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/c" type="array">
+      <obj_property name="ElementShortName">c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/tx" type="array">
+      <obj_property name="ElementShortName">tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/st" type="array">
+      <obj_property name="ElementShortName">st[7:0]</obj_property>
+      <obj_property name="ObjectShortName">st[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/rxv" type="array">
+      <obj_property name="ElementShortName">rxv[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxv[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/srx" type="array">
+      <obj_property name="ElementShortName">srx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">srx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/cfg_rb" type="array">
+      <obj_property name="ElementShortName">cfg_rb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_rb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/e" type="logic">
+      <obj_property name="ElementShortName">e</obj_property>
+      <obj_property name="ObjectShortName">e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PCLK" type="logic">
+      <obj_property name="ElementShortName">PCLK</obj_property>
+      <obj_property name="ObjectShortName">PCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PRESETn" type="logic">
+      <obj_property name="ElementShortName">PRESETn</obj_property>
+      <obj_property name="ObjectShortName">PRESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PSEL" type="logic">
+      <obj_property name="ElementShortName">PSEL</obj_property>
+      <obj_property name="ObjectShortName">PSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PENABLE" type="logic">
+      <obj_property name="ElementShortName">PENABLE</obj_property>
+      <obj_property name="ObjectShortName">PENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PWRITE" type="logic">
+      <obj_property name="ElementShortName">PWRITE</obj_property>
+      <obj_property name="ObjectShortName">PWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PADDR" type="array">
+      <obj_property name="ElementShortName">PADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PWDATA" type="array">
+      <obj_property name="ElementShortName">PWDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PRDATA" type="array">
+      <obj_property name="ElementShortName">PRDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PREADY" type="logic">
+      <obj_property name="ElementShortName">PREADY</obj_property>
+      <obj_property name="ObjectShortName">PREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PSLVERR" type="logic">
+      <obj_property name="ElementShortName">PSLVERR</obj_property>
+      <obj_property name="ObjectShortName">PSLVERR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/ss_n" type="array">
+      <obj_property name="ElementShortName">ss_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/sel" type="logic">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/idx" type="array">
+      <obj_property name="ElementShortName">idx[1:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/cfg_reg" type="array">
+      <obj_property name="ElementShortName">cfg_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/tx_reg" type="array">
+      <obj_property name="ElementShortName">tx_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/done_flag" type="logic">
+      <obj_property name="ElementShortName">done_flag</obj_property>
+      <obj_property name="ObjectShortName">done_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/BASE" type="array">
+      <obj_property name="ElementShortName">BASE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BASE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/clk_sel" type="array">
+      <obj_property name="ElementShortName">clk_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/ss_sel" type="array">
+      <obj_property name="ElementShortName">ss_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/cpol" type="logic">
+      <obj_property name="ElementShortName">cpol</obj_property>
+      <obj_property name="ObjectShortName">cpol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/cpha" type="logic">
+      <obj_property name="ElementShortName">cpha</obj_property>
+      <obj_property name="ObjectShortName">cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/ss_n" type="array">
+      <obj_property name="ElementShortName">ss_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/half" type="array">
+      <obj_property name="ElementShortName">half[3:0]</obj_property>
+      <obj_property name="ObjectShortName">half[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/div_cnt" type="array">
+      <obj_property name="ElementShortName">div_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">div_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/edge_cnt" type="array">
+      <obj_property name="ElementShortName">edge_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">edge_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/mosi_r" type="logic">
+      <obj_property name="ElementShortName">mosi_r</obj_property>
+      <obj_property name="ObjectShortName">mosi_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/sck_r" type="logic">
+      <obj_property name="ElementShortName">sck_r</obj_property>
+      <obj_property name="ObjectShortName">sck_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/l_cpha" type="logic">
+      <obj_property name="ElementShortName">l_cpha</obj_property>
+      <obj_property name="ObjectShortName">l_cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/ss_r" type="array">
+      <obj_property name="ElementShortName">ss_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/tick" type="logic">
+      <obj_property name="ElementShortName">tick</obj_property>
+      <obj_property name="ObjectShortName">tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/SETUP" type="array">
+      <obj_property name="ElementShortName">SETUP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SETUP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/XFER" type="array">
+      <obj_property name="ElementShortName">XFER[1:0]</obj_property>
+      <obj_property name="ObjectShortName">XFER[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/HOLD" type="array">
+      <obj_property name="ElementShortName">HOLD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HOLD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/ecnt" type="array">
+      <obj_property name="ElementShortName">ecnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ecnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/CPOL" type="array">
+      <obj_property name="ElementShortName">CPOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/CPHA" type="array">
+      <obj_property name="ElementShortName">CPHA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/ecnt" type="array">
+      <obj_property name="ElementShortName">ecnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ecnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/CPOL" type="array">
+      <obj_property name="ElementShortName">CPOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/CPHA" type="array">
+      <obj_property name="ElementShortName">CPHA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/ecnt" type="array">
+      <obj_property name="ElementShortName">ecnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ecnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/CPOL" type="array">
+      <obj_property name="ElementShortName">CPOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/CPHA" type="array">
+      <obj_property name="ElementShortName">CPHA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/ecnt" type="array">
+      <obj_property name="ElementShortName">ecnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ecnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/CPOL" type="array">
+      <obj_property name="ElementShortName">CPOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/CPHA" type="array">
+      <obj_property name="ElementShortName">CPHA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_write/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_write/d" type="array">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_write/er" type="logic">
+      <obj_property name="ElementShortName">er</obj_property>
+      <obj_property name="ObjectShortName">er</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_read/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_read/d" type="array">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/expect_true/cond" type="logic">
+      <obj_property name="ElementShortName">cond</obj_property>
+      <obj_property name="ObjectShortName">cond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/expect_true/name" type="array">
+      <obj_property name="ElementShortName">name[351:0]</obj_property>
+      <obj_property name="ObjectShortName">name[351:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/slave" type="array">
+      <obj_property name="ElementShortName">slave[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slave[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/clk_sel" type="array">
+      <obj_property name="ElementShortName">clk_sel[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_sel[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/txb" type="array">
+      <obj_property name="ElementShortName">txb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">txb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/cfg" type="array">
+      <obj_property name="ElementShortName">cfg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/stat" type="array">
+      <obj_property name="ElementShortName">stat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">stat[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/rxd" type="array">
+      <obj_property name="ElementShortName">rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/srxd" type="array">
+      <obj_property name="ElementShortName">srxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">srxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/expd" type="array">
+      <obj_property name="ElementShortName">expd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/t" type="array">
+      <obj_property name="ElementShortName">t[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/er" type="logic">
+      <obj_property name="ElementShortName">er</obj_property>
+      <obj_property name="ObjectShortName">er</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PCLK" type="logic">
+      <obj_property name="ElementShortName">PCLK</obj_property>
+      <obj_property name="ObjectShortName">PCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PRESETn" type="logic">
+      <obj_property name="ElementShortName">PRESETn</obj_property>
+      <obj_property name="ObjectShortName">PRESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PSEL" type="logic">
+      <obj_property name="ElementShortName">PSEL</obj_property>
+      <obj_property name="ObjectShortName">PSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PENABLE" type="logic">
+      <obj_property name="ElementShortName">PENABLE</obj_property>
+      <obj_property name="ObjectShortName">PENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PWRITE" type="logic">
+      <obj_property name="ElementShortName">PWRITE</obj_property>
+      <obj_property name="ObjectShortName">PWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PADDR" type="array">
+      <obj_property name="ElementShortName">PADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PWDATA" type="array">
+      <obj_property name="ElementShortName">PWDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PRDATA" type="array">
+      <obj_property name="ElementShortName">PRDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PREADY" type="logic">
+      <obj_property name="ElementShortName">PREADY</obj_property>
+      <obj_property name="ObjectShortName">PREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/PSLVERR" type="logic">
+      <obj_property name="ElementShortName">PSLVERR</obj_property>
+      <obj_property name="ObjectShortName">PSLVERR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/ss_n" type="array">
+      <obj_property name="ElementShortName">ss_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/sel" type="logic">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/idx" type="array">
+      <obj_property name="ElementShortName">idx[1:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/cfg_reg" type="array">
+      <obj_property name="ElementShortName">cfg_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/tx_reg" type="array">
+      <obj_property name="ElementShortName">tx_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/done_flag" type="logic">
+      <obj_property name="ElementShortName">done_flag</obj_property>
+      <obj_property name="ObjectShortName">done_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/BASE" type="array">
+      <obj_property name="ElementShortName">BASE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BASE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/clk_sel" type="array">
+      <obj_property name="ElementShortName">clk_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/ss_sel" type="array">
+      <obj_property name="ElementShortName">ss_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/cpol" type="logic">
+      <obj_property name="ElementShortName">cpol</obj_property>
+      <obj_property name="ObjectShortName">cpol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/cpha" type="logic">
+      <obj_property name="ElementShortName">cpha</obj_property>
+      <obj_property name="ObjectShortName">cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/ss_n" type="array">
+      <obj_property name="ElementShortName">ss_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/half" type="array">
+      <obj_property name="ElementShortName">half[3:0]</obj_property>
+      <obj_property name="ObjectShortName">half[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/div_cnt" type="array">
+      <obj_property name="ElementShortName">div_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">div_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/edge_cnt" type="array">
+      <obj_property name="ElementShortName">edge_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">edge_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/mosi_r" type="logic">
+      <obj_property name="ElementShortName">mosi_r</obj_property>
+      <obj_property name="ObjectShortName">mosi_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/sck_r" type="logic">
+      <obj_property name="ElementShortName">sck_r</obj_property>
+      <obj_property name="ObjectShortName">sck_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/l_cpha" type="logic">
+      <obj_property name="ElementShortName">l_cpha</obj_property>
+      <obj_property name="ObjectShortName">l_cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/ss_r" type="array">
+      <obj_property name="ElementShortName">ss_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/tick" type="logic">
+      <obj_property name="ElementShortName">tick</obj_property>
+      <obj_property name="ObjectShortName">tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/SETUP" type="array">
+      <obj_property name="ElementShortName">SETUP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SETUP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/XFER" type="array">
+      <obj_property name="ElementShortName">XFER[1:0]</obj_property>
+      <obj_property name="ObjectShortName">XFER[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/HOLD" type="array">
+      <obj_property name="ElementShortName">HOLD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HOLD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/clk_sel" type="array">
+      <obj_property name="ElementShortName">clk_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/ss_sel" type="array">
+      <obj_property name="ElementShortName">ss_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/cpol" type="logic">
+      <obj_property name="ElementShortName">cpol</obj_property>
+      <obj_property name="ObjectShortName">cpol</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/cpha" type="logic">
+      <obj_property name="ElementShortName">cpha</obj_property>
+      <obj_property name="ObjectShortName">cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/ss_n" type="array">
+      <obj_property name="ElementShortName">ss_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/half" type="array">
+      <obj_property name="ElementShortName">half[3:0]</obj_property>
+      <obj_property name="ObjectShortName">half[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/div_cnt" type="array">
+      <obj_property name="ElementShortName">div_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">div_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/edge_cnt" type="array">
+      <obj_property name="ElementShortName">edge_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">edge_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/mosi_r" type="logic">
+      <obj_property name="ElementShortName">mosi_r</obj_property>
+      <obj_property name="ObjectShortName">mosi_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/sck_r" type="logic">
+      <obj_property name="ElementShortName">sck_r</obj_property>
+      <obj_property name="ObjectShortName">sck_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/l_cpha" type="logic">
+      <obj_property name="ElementShortName">l_cpha</obj_property>
+      <obj_property name="ObjectShortName">l_cpha</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/ss_r" type="array">
+      <obj_property name="ElementShortName">ss_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_r[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/tick" type="logic">
+      <obj_property name="ElementShortName">tick</obj_property>
+      <obj_property name="ObjectShortName">tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/SETUP" type="array">
+      <obj_property name="ElementShortName">SETUP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SETUP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/XFER" type="array">
+      <obj_property name="ElementShortName">XFER[1:0]</obj_property>
+      <obj_property name="ObjectShortName">XFER[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/DUT/u_spi/HOLD" type="array">
+      <obj_property name="ElementShortName">HOLD[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HOLD[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/ecnt" type="array">
+      <obj_property name="ElementShortName">ecnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ecnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/CPOL" type="array">
+      <obj_property name="ElementShortName">CPOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S0/CPHA" type="array">
+      <obj_property name="ElementShortName">CPHA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/ecnt" type="array">
+      <obj_property name="ElementShortName">ecnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ecnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/CPOL" type="array">
+      <obj_property name="ElementShortName">CPOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S1/CPHA" type="array">
+      <obj_property name="ElementShortName">CPHA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/ecnt" type="array">
+      <obj_property name="ElementShortName">ecnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ecnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/CPOL" type="array">
+      <obj_property name="ElementShortName">CPOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S2/CPHA" type="array">
+      <obj_property name="ElementShortName">CPHA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/ss_n" type="logic">
+      <obj_property name="ElementShortName">ss_n</obj_property>
+      <obj_property name="ObjectShortName">ss_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/tx_sh" type="array">
+      <obj_property name="ElementShortName">tx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/rx_sh" type="array">
+      <obj_property name="ElementShortName">rx_sh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sh[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/ecnt" type="array">
+      <obj_property name="ElementShortName">ecnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ecnt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/CPOL" type="array">
+      <obj_property name="ElementShortName">CPOL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPOL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/S3/CPHA" type="array">
+      <obj_property name="ElementShortName">CPHA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CPHA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_write/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_write/d" type="array">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_write/er" type="logic">
+      <obj_property name="ElementShortName">er</obj_property>
+      <obj_property name="ObjectShortName">er</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_read/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/apb_read/d" type="array">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/expect_true/cond" type="logic">
+      <obj_property name="ElementShortName">cond</obj_property>
+      <obj_property name="ObjectShortName">cond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/expect_true/name" type="array">
+      <obj_property name="ElementShortName">name[351:0]</obj_property>
+      <obj_property name="ObjectShortName">name[351:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/slave" type="array">
+      <obj_property name="ElementShortName">slave[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slave[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/clk_sel" type="array">
+      <obj_property name="ElementShortName">clk_sel[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_sel[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/txb" type="array">
+      <obj_property name="ElementShortName">txb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">txb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/cfg" type="array">
+      <obj_property name="ElementShortName">cfg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/stat" type="array">
+      <obj_property name="ElementShortName">stat[7:0]</obj_property>
+      <obj_property name="ObjectShortName">stat[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/rxd" type="array">
+      <obj_property name="ElementShortName">rxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/srxd" type="array">
+      <obj_property name="ElementShortName">srxd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">srxd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/expd" type="array">
+      <obj_property name="ElementShortName">expd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">expd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/t" type="array">
+      <obj_property name="ElementShortName">t[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_apb_spi/spi_xfer/er" type="logic">
+      <obj_property name="ElementShortName">er</obj_property>
+      <obj_property name="ObjectShortName">er</obj_property>
+   </wvobject>
+</wave_config>

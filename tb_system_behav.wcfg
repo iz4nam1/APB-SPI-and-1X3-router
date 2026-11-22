@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_system" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="15700000001fs"></ZoomEndTime>
+      <Cursor1Time time="3240000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="58" />
+   <wvobject fp_name="/tb_system/PCLK" type="logic">
+      <obj_property name="ElementShortName">PCLK</obj_property>
+      <obj_property name="ObjectShortName">PCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PRESETn" type="logic">
+      <obj_property name="ElementShortName">PRESETn</obj_property>
+      <obj_property name="ObjectShortName">PRESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PSEL" type="logic">
+      <obj_property name="ElementShortName">PSEL</obj_property>
+      <obj_property name="ObjectShortName">PSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PENABLE" type="logic">
+      <obj_property name="ElementShortName">PENABLE</obj_property>
+      <obj_property name="ObjectShortName">PENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PWRITE" type="logic">
+      <obj_property name="ElementShortName">PWRITE</obj_property>
+      <obj_property name="ObjectShortName">PWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PADDR" type="array">
+      <obj_property name="ElementShortName">PADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PWDATA" type="array">
+      <obj_property name="ElementShortName">PWDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PRDATA" type="array">
+      <obj_property name="ElementShortName">PRDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PREADY" type="logic">
+      <obj_property name="ElementShortName">PREADY</obj_property>
+      <obj_property name="ObjectShortName">PREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PSLVERR" type="logic">
+      <obj_property name="ElementShortName">PSLVERR</obj_property>
+      <obj_property name="ObjectShortName">PSLVERR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/ss_n" type="array">
+      <obj_property name="ElementShortName">ss_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s0_rx" type="array">
+      <obj_property name="ElementShortName">s0_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s0_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s1_rx" type="array">
+      <obj_property name="ElementShortName">s1_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s1_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s2_rx" type="array">
+      <obj_property name="ElementShortName">s2_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s2_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s3_rx" type="array">
+      <obj_property name="ElementShortName">s3_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s3_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/st" type="array">
+      <obj_property name="ElementShortName">st[7:0]</obj_property>
+      <obj_property name="ObjectShortName">st[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/rxv" type="array">
+      <obj_property name="ElementShortName">rxv[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxv[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/d" type="array">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/p" type="array">
+      <obj_property name="ElementShortName">p[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/e" type="logic">
+      <obj_property name="ElementShortName">e</obj_property>
+      <obj_property name="ObjectShortName">e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/exp_b" type="array">
+      <obj_property name="ElementShortName">exp_b[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_b[0:127][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/exp_n" type="array">
+      <obj_property name="ElementShortName">exp_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/got_b" type="array">
+      <obj_property name="ElementShortName">got_b[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">got_b[0:127][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/got_p" type="array">
+      <obj_property name="ElementShortName">got_p[0:127][1:0]</obj_property>
+      <obj_property name="ObjectShortName">got_p[0:127][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/got_n" type="array">
+      <obj_property name="ElementShortName">got_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">got_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PCLK" type="logic">
+      <obj_property name="ElementShortName">PCLK</obj_property>
+      <obj_property name="ObjectShortName">PCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PRESETn" type="logic">
+      <obj_property name="ElementShortName">PRESETn</obj_property>
+      <obj_property name="ObjectShortName">PRESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PSEL" type="logic">
+      <obj_property name="ElementShortName">PSEL</obj_property>
+      <obj_property name="ObjectShortName">PSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PENABLE" type="logic">
+      <obj_property name="ElementShortName">PENABLE</obj_property>
+      <obj_property name="ObjectShortName">PENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PWRITE" type="logic">
+      <obj_property name="ElementShortName">PWRITE</obj_property>
+      <obj_property name="ObjectShortName">PWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PADDR" type="array">
+      <obj_property name="ElementShortName">PADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PWDATA" type="array">
+      <obj_property name="ElementShortName">PWDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PWDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PRDATA" type="array">
+      <obj_property name="ElementShortName">PRDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PRDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PREADY" type="logic">
+      <obj_property name="ElementShortName">PREADY</obj_property>
+      <obj_property name="ObjectShortName">PREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PSLVERR" type="logic">
+      <obj_property name="ElementShortName">PSLVERR</obj_property>
+      <obj_property name="ObjectShortName">PSLVERR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/ss_n" type="array">
+      <obj_property name="ElementShortName">ss_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_n[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s0_rx" type="array">
+      <obj_property name="ElementShortName">s0_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s0_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s1_rx" type="array">
+      <obj_property name="ElementShortName">s1_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s1_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s2_rx" type="array">
+      <obj_property name="ElementShortName">s2_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s2_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/s3_rx" type="array">
+      <obj_property name="ElementShortName">s3_rx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s3_rx[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/st" type="array">
+      <obj_property name="ElementShortName">st[7:0]</obj_property>
+      <obj_property name="ObjectShortName">st[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/rxv" type="array">
+      <obj_property name="ElementShortName">rxv[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rxv[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/d" type="array">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/p" type="array">
+      <obj_property name="ElementShortName">p[7:0]</obj_property>
+      <obj_property name="ObjectShortName">p[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/e" type="logic">
+      <obj_property name="ElementShortName">e</obj_property>
+      <obj_property name="ObjectShortName">e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/exp_b" type="array">
+      <obj_property name="ElementShortName">exp_b[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_b[0:127][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/exp_n" type="array">
+      <obj_property name="ElementShortName">exp_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exp_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/got_b" type="array">
+      <obj_property name="ElementShortName">got_b[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">got_b[0:127][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/got_p" type="array">
+      <obj_property name="ElementShortName">got_p[0:127][1:0]</obj_property>
+      <obj_property name="ObjectShortName">got_p[0:127][1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/got_n" type="array">
+      <obj_property name="ElementShortName">got_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">got_n[31:0]</obj_property>
+   </wvobject>
+</wave_config>
