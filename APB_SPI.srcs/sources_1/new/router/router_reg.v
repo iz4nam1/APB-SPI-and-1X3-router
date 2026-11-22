@@ -1,8 +1,6 @@
 `timescale 1ns/1ps
 /***************************************************************************************************
 FILENAME    :  router_reg.v
-BASED ON    :  Mohamed Anas MN - github.com/mnmhdanas/Router-1-x-3- (router_reg.v, 23/08/2021)
-CHANGES     :  none to the logic (reformatted only)
 ****************************************************************************************************/
 
 module router_reg(clock,resetn,pkt_valid,data_in,fifo_full,detect_add,
